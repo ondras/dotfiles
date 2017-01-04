@@ -11,6 +11,7 @@ set wildmenu
 
 " vcs instead
 set nobackup
+set nowritebackup
 set noswapfile
 
 " search: no case, incremental, highlight
@@ -28,7 +29,7 @@ set whichwrap+=<,>,h,l
 colorscheme desert
 
 " filetype-based autoindent
-filetype indent on
+filetype plugin indent on
 
 " less invasive matching paren
 hi MatchParen term=bold,underline cterm=bold,underline ctermbg=none guibg=NONE
