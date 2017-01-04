@@ -32,7 +32,7 @@ colorscheme desert
 filetype plugin indent on
 
 " less invasive matching paren
-hi MatchParen term=bold,underline cterm=bold,underline ctermbg=none guibg=NONE
+hi MatchParen term=bold cterm=bold gui=bold ctermbg=none guibg=NONE
 
 " yank to + register (X clipboard)
 set clipboard=unnamedplus
