@@ -1,0 +1,13 @@
+[extensions]
+convert=
+git=
+graphlog=
+color=
+pager=
+fetch=
+
+[ui]
+username = Ondrej Zara <ondrej.zara@gmail.com>
+
+[pager]
+pager=LESS='FSRX' less
