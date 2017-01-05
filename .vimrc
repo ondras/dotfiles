@@ -1,6 +1,7 @@
 set tabstop=4
 set shiftwidth=4
 set number
+set cursorline
 set undolevels=1000
 
 " hide buffers instead of closing them
@@ -26,13 +27,13 @@ set modeline
 " make arrows/hl wrap at line beginning/end
 set whichwrap+=<,>,h,l
 
-colorscheme desert
+colorscheme desertink
 
 " filetype-based autoindent
 filetype plugin indent on
 
 " less invasive matching paren
-hi MatchParen term=bold cterm=bold gui=bold ctermbg=none guibg=NONE
+hi MatchParen term=bold,underline cterm=bold,underline gui=bold,underline ctermbg=none guibg=NONE
 
 " yank to + register (X clipboard)
 set clipboard=unnamedplus
