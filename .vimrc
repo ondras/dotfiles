@@ -1,3 +1,12 @@
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'toupeira/vim-desertink'
+Plugin 'pangloss/vim-javascript'
+Plugin 'groenewege/vim-less'
+
+call vundle#end()
+
 set tabstop=4
 set shiftwidth=4
 set number
@@ -26,6 +35,11 @@ set modeline
 
 " make arrows/hl wrap at line beginning/end
 set whichwrap+=<,>,h,l
+
+" netrw improvements
+let g:netrw_liststyle=3
+let g:netrw_banner=0
+let g:netrw_browse_split=3
 
 colorscheme desertink
 
