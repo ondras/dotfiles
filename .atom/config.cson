@@ -10,9 +10,11 @@
     ]
     excludeVcsIgnoredPaths: false
     projectHome: "/home/ondras/"
+    restorePreviousWindowsOnStart: "no"
     telemetryConsent: "no"
   editor:
     invisibles: {}
+    showIndentGuide: true
     tabLength: 4
   "exception-reporting":
     userId: "fab0fed6-d49d-4846-9257-9ba9b8ff4a36"
