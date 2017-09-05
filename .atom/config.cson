@@ -1,0 +1,22 @@
+"*":
+  core:
+    audioBeep: false
+    automaticallyUpdate: false
+    closeEmptyWindows: false
+    disabledPackages: [
+      "spell-check"
+      "metrics"
+      "exception-reporting"
+    ]
+    excludeVcsIgnoredPaths: false
+    projectHome: "/home/ondras/"
+    telemetryConsent: "no"
+  editor:
+    invisibles: {}
+    tabLength: 4
+  "exception-reporting":
+    userId: "fab0fed6-d49d-4846-9257-9ba9b8ff4a36"
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
