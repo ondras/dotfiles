@@ -1,0 +1,8 @@
+atom-file-icons@0.6.0
+atom-find-in-directory@1.3.1
+atom-hg@2.0.14
+highlight-selected@0.13.1
+language-elm@1.5.0
+pigments@0.40.2
+symbols-list@2.4.1
+
