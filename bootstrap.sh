@@ -14,4 +14,11 @@ cd $BUNDLE
 git clone https://github.com/VundleVim/Vundle.vim.git
 vim +PluginInstall +qall
 
-echo "source $DIR/bash_history.sh" >> ~/.bashrc
+# echo "source $DIR/bash_history.sh" >> ~/.bashrc
+
+SUBL="sublime-text-3"
+SUBL_DIR=~/.config/$SUBL/Packages/User
+mkdir -p $SUBL_DIR
+for i in $DIR/$SUBL/* ; do
+	ln -s "$i" $SUBL_DIR
+done
