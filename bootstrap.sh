@@ -11,3 +11,4 @@ BUNDLE=~/.vim/bundle
 mkdir -p $BUNDLE
 cd $BUNDLE
 git clone https://github.com/VundleVim/Vundle.vim.git
+vim +PluginInstall +qall
