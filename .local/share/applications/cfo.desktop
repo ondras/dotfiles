@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=CFO
+Categories=System
+Exec=npm start
+Path=/home/ondras/projects/cfo
+Icon=file-manager
+Terminal=false
+StartupNotify=false
