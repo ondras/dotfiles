@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=mp
+Comment=Music player
+Exec=/home/ondras/projects/mp/dist/electron/mp.sh %F
+Icon=/home/ondras/projects/mp/icon.png
+MimeType=audio/wav;audio/mpeg;audio/mp4;audio/ogg;audio/aac;audio/x-mpegurl;
+Categories=AudioVideo;Audio;

@@ -1,6 +1,5 @@
 [extensions]
 convert=
-#git=
 graphlog=
 color=
 pager=

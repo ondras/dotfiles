@@ -4,5 +4,6 @@
 	"font_size": 11,
 	"font_face": "Input",
 	"highlight_line": true,
-	"theme": "Adaptive.sublime-theme"
+	"theme": "Adaptive.sublime-theme",
+	"binary_file_patterns": [".svn/", ".git/", ".hg/", "CVS/", "node_modules/", "bower_components/"]
 }

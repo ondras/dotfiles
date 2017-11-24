@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Fire Commander
+Categories=System
+Icon=/home/ondras/projects/firecommander/firecommander@ondras.zarovi.cz/chrome/icons/default/firecommander32.png
+Exec=firefox -app /home/ondras/projects/firecommander/xr/application.ini
+Path=
+Terminal=false
+StartupNotify=false
