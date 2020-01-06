@@ -1,9 +1,21 @@
 {
+	"binary_file_patterns":
+	[
+		".svn/",
+		".git/",
+		".hg/",
+		"CVS/",
+		"node_modules/",
+		"bower_components/"
+	],
 	"color_scheme": "Packages/Color Scheme - Default/Mariana.tmTheme",
 	"dictionary": "Packages/User/Czech.dic",
-	"font_size": 11,
 	"font_face": "Input",
+	"font_size": 11,
 	"highlight_line": true,
-	"theme": "Adaptive.sublime-theme",
-	"binary_file_patterns": [".svn/", ".git/", ".hg/", "CVS/", "node_modules/", "bower_components/"]
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"theme": "Adaptive.sublime-theme"
 }

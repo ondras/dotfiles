@@ -1,0 +1,16 @@
+[
+    { "key": "ctrl+tab",
+        "command": "workbench.action.nextEditorInGroup"
+    },
+    { "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditorInGroup"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "editor.action.deleteLines"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "editor.action.jumpToBracket"
+    }
+]

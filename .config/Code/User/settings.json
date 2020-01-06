@@ -1,0 +1,15 @@
+{
+    "telemetry.enableTelemetry": false,
+    "window.zoomLevel": 0,
+    "editor.fontFamily": "'input', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.insertSpaces": false,
+    "editor.wordWrap": "on",
+    "search.location": "panel",
+    "workbench.colorCustomizations": {
+        "editorError.border": "#0000",
+        "editorWarning.border": "#0000",
+        "editor.lineHighlightBackground": "#fff1",
+        "editor.lineHighlightBorder": "#fff0"
+    },
+    "workbench.colorTheme": "Mariana Pro (Gray)"
+}
