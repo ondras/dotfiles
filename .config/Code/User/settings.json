@@ -3,7 +3,6 @@
     "window.zoomLevel": 0,
     "editor.fontFamily": "'input', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.insertSpaces": false,
-    "editor.wordWrap": "on",
     "search.location": "panel",
     "workbench.colorCustomizations": {
         "editorError.border": "#0000",
