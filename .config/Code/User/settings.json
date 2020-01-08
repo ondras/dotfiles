@@ -4,13 +4,7 @@
     "editor.fontFamily": "'input', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.insertSpaces": false,
     "search.location": "panel",
-    "workbench.colorCustomizations": {
-        "editorError.border": "#0000",
-        "editorWarning.border": "#0000",
-        "editor.lineHighlightBackground": "#fff1",
-        "editor.lineHighlightBorder": "#fff0"
-    },
-    "workbench.colorTheme": "Mariana Pro (Gray)",
+    "workbench.colorTheme": "GitHub Sharp Dark",
     "extensions.ignoreRecommendations": false,
     "git.enabled": false
 }
