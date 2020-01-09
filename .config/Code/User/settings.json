@@ -4,7 +4,9 @@
     "editor.fontFamily": "'input', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.insertSpaces": false,
     "search.location": "panel",
-    "workbench.colorTheme": "GitHub Sharp Dark",
     "extensions.ignoreRecommendations": false,
-    "git.enabled": false
+    "git.enabled": false,
+    "workbench.colorTheme": "One Dark Pro",
+    "typescript.disableAutomaticTypeAcquisition": true,
+    "typescript.surveys.enabled": false
 }
