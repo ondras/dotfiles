@@ -8,5 +8,6 @@
     "git.enabled": false,
     "workbench.colorTheme": "One Dark Pro",
     "typescript.disableAutomaticTypeAcquisition": true,
-    "typescript.surveys.enabled": false
+    "typescript.surveys.enabled": false,
+    "files.trimTrailingWhitespace": true
 }
