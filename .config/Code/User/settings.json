@@ -8,5 +8,6 @@
     "typescript.disableAutomaticTypeAcquisition": true,
     "typescript.surveys.enabled": false,
     "files.trimTrailingWhitespace": true,
-    "files.eol": "\n"
+    "files.eol": "\n",
+    "editor.renderWhitespace": "selection"
 }
