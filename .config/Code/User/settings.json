@@ -9,5 +9,8 @@
     "typescript.surveys.enabled": false,
     "files.trimTrailingWhitespace": true,
     "files.eol": "\n",
-    "editor.renderWhitespace": "selection"
+    "editor.renderWhitespace": "selection",
+    "editor.renderLineHighlight": "all",
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintUseMinimalCheckers": false
 }
