@@ -9,5 +9,6 @@
     "typescript.surveys.enabled": false,
     "files.trimTrailingWhitespace": true,
     "files.eol": "\n",
-    "editor.renderWhitespace": "selection"
+    "editor.renderWhitespace": "selection",
+    "typescript.tsserver.log": "verbose"
 }

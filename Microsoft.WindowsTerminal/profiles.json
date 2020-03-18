@@ -54,9 +54,9 @@
     // Add any keybinding overrides to this array.
     // To unbind a default keybinding, set the command to "unbound"
     "keybindings": [
-        { "command": "unbound", "keys": [ "alt+down" ] },
-        { "command": "unbound", "keys": [ "alt+up" ] },
-        { "command": "unbound", "keys": [ "alt+left" ] },
-        { "command": "unbound", "keys": [ "alt+right" ] }
+        { "command": null, "keys": [ "alt+down" ] },
+        { "command": null, "keys": [ "alt+up" ] },
+        { "command": null, "keys": [ "alt+left" ] },
+        { "command": null, "keys": [ "alt+right" ] }
     ]
 }
