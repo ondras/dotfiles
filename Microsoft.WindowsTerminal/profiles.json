@@ -13,7 +13,8 @@
             "fontSize": 11,
             "padding": "2",
             "scrollbarState": "hidden",
-            "colorScheme": "Vintage"
+            "colorScheme": "Vintage",
+            "antialiasingMode": "cleartype"
         }, "list": [
             {
                 // Make changes here to the powershell.exe profile
