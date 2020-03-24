@@ -1,12 +1,22 @@
 [user]
+	useConfigOnly = true
+
+[user.github]
+	name = Ondřej Žára
 	email = ondrej.zara@gmail.com
-	name = Ondrej Zara
 	signingkey = B0A5751E616840C5
+
+[user.seznam]
+	name = Ondřej Žára
+	email = ondrej.zara@firma.seznam.cz
+	signingkey = 23C6EF2F3D4A5B27
 
 [color]
 	ui = auto
 
 [alias]
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	identity = "! git config user.name \"$(git config user.$1.name)\"; git config user.email \"$(git config user.$1.email)\"; git config user.signingkey \"$(git config user.$1.signingkey)\"; :"
+
 [commit]
 	gpgsign = true
