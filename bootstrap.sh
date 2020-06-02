@@ -15,6 +15,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git
 vim +PluginInstall +qall
 
 echo "source $DIR/bash_prompt.sh" >> ~/.bashrc
+echo "source $DIR/.profile" >> ~/.profile
 
 SUBL=".config/sublime-text-3"
 SUBL_DIR=~/$SUBL/Packages/User
