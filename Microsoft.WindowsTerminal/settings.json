@@ -61,9 +61,12 @@
     // Add any keybinding overrides to this array.
     // To unbind a default keybinding, set the command to "unbound"
     "keybindings": [
-        { "command": null, "keys": [ "alt+down" ] },
-        { "command": null, "keys": [ "alt+up" ] },
-        { "command": null, "keys": [ "alt+left" ] },
-        { "command": null, "keys": [ "alt+right" ] }
+        { "command": null, "keys": "alt+down" },
+        { "command": null, "keys": "alt+up" },
+        { "command": null, "keys": "alt+left" },
+        { "command": null, "keys": "alt+right" },
+        { "command": { "action": "copy", "singleLine": false }, "keys": "ctrl+c" },
+        { "command": "paste", "keys": "ctrl+v" },
+        { "command": "toggleRetroEffect", "keys": "ctrl+`" }
     ]
 }
