@@ -10,6 +10,11 @@
     "files.trimTrailingWhitespace": true,
     "files.eol": "\n",
     "editor.renderLineHighlight": "all",
-    "python.linting.pylintEnabled": true,
-    "python.linting.pylintUseMinimalCheckers": false
+    "python.linting.enabled": true,
+    "python.linting.pylintArgs": [
+        "--disable=all", "--enable=unused-import,unused-variable,unused-argument,unused-wildcard-import,E,F"
+    ],
+    "python.pythonPath": "/usr/bin/python3",
+    "workbench.editor.decorations.badges": false,
+    "workbench.editor.decorations.colors": false
 }
