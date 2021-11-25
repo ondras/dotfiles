@@ -17,5 +17,5 @@
     "python.pythonPath": "/usr/bin/python3",
     "workbench.editor.decorations.badges": false,
     "workbench.editor.decorations.colors": false,
-    "security.workspace.trust.enabled": false,
+    "security.workspace.trust.enabled": false
 }
