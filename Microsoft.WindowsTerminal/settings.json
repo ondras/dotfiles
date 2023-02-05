@@ -1,6 +1,7 @@
 {
+    "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
+    "actions":
     [
         {
             "command": "unbound",
@@ -23,7 +24,7 @@
             "keys": "ctrl+`"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "copy",
                 "singleLine": false
@@ -39,13 +40,13 @@
     "defaultProfile": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
     "initialCols": 175,
     "initialRows": 46,
-    "profiles": 
+    "profiles":
     {
-        "defaults": 
+        "defaults":
         {
             "antialiasingMode": "cleartype",
             "colorScheme": "Vintage",
-            "font": 
+            "font":
             {
                 "face": "Input",
                 "size": 11
@@ -53,16 +54,14 @@
             "padding": "2",
             "scrollbarState": "hidden"
         },
-        "list": 
+        "list":
         [
             {
-                "commandline": "powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": true,
                 "name": "Windows PowerShell"
             },
             {
-                "commandline": "cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "cmd"
@@ -83,6 +82,7 @@
                 "colorScheme": "Vintage",
                 "commandline": "wsl -e ssh -L 0:5901:localhost:5901 ondras@smaug.cz",
                 "experimental.retroTerminalEffect": false,
+                "guid": "{8d3ad4c0-86de-55b7-8af5-efe4d3d08286}",
                 "name": "Smaug SSH/VNC"
             },
             {
@@ -93,7 +93,7 @@
             }
         ]
     },
-    "schemes": 
+    "schemes":
     [
         {
             "background": "#0C0C0C",
