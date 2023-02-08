@@ -1,7 +1,7 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions":
+    "actions": 
     [
         {
             "command": "unbound",
@@ -24,7 +24,7 @@
             "keys": "ctrl+`"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "copy",
                 "singleLine": false
@@ -36,25 +36,27 @@
             "keys": "ctrl+v"
         }
     ],
+    "alwaysShowNotificationIcon": false,
     "copyFormatting": "none",
     "defaultProfile": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
     "initialCols": 175,
     "initialRows": 46,
-    "profiles":
+    "profiles": 
     {
-        "defaults":
+        "defaults": 
         {
             "antialiasingMode": "cleartype",
-            "colorScheme": "Vintage",
-            "font":
+            "colorScheme": "Campbell",
+            "font": 
             {
                 "face": "Input",
-                "size": 11
+                "size": 11.0
             },
             "padding": "2",
-            "scrollbarState": "hidden"
+            "scrollbarState": "hidden",
+            "useAtlasEngine": false
         },
-        "list":
+        "list": 
         [
             {
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -79,7 +81,6 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "colorScheme": "Vintage",
                 "commandline": "wsl -e ssh -L 0:5901:localhost:5901 ondras@smaug.cz",
                 "experimental.retroTerminalEffect": false,
                 "guid": "{8d3ad4c0-86de-55b7-8af5-efe4d3d08286}",
@@ -93,7 +94,7 @@
             }
         ]
     },
-    "schemes":
+    "schemes": 
     [
         {
             "background": "#0C0C0C",
@@ -306,5 +307,7 @@
     "snapToGridOnResize": true,
     "startOnUserLogin": true,
     "tabSwitcherMode": "disabled",
-    "theme": "system"
+    "theme": "system",
+    "themes": [],
+    "useAcrylicInTabRow": false
 }
