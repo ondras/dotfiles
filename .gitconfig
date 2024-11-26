@@ -11,6 +11,10 @@
 	email = ondrej.zara@firma.seznam.cz
 	signingkey = 23C6EF2F3D4A5B27
 
+[user.cvut]
+	name = Ondřej Žára
+	email = zaraondr@fel.cvut.cz
+
 [color]
 	ui = auto
 
@@ -20,3 +24,5 @@
 
 [commit]
 	gpgsign = true
+[pull]
+	rebase = false

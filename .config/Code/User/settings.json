@@ -1,15 +1,19 @@
 {
-    "telemetry.enableTelemetry": false,
+    "telemetry.telemetryLevel": "off",
     "editor.fontFamily": "'input', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.insertSpaces": false,
-    "extensions.ignoreRecommendations": false,
+    "extensions.ignoreRecommendations": true,
     "git.enabled": false,
-    "workbench.colorTheme": "One Dark Pro",
     "typescript.disableAutomaticTypeAcquisition": true,
     "typescript.surveys.enabled": false,
     "files.trimTrailingWhitespace": true,
     "files.eol": "\n",
     "editor.renderLineHighlight": "all",
-    "python.linting.pylintEnabled": true,
-    "python.linting.pylintUseMinimalCheckers": false
+    "workbench.editor.decorations.badges": false,
+    "workbench.editor.decorations.colors": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.workspace.trust.enabled": false,
+    "python.analysis.typeCheckingMode": "basic",
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.sideBar.location": "right"
 }
